@@ -2,7 +2,7 @@ import { TecnologyCard } from "./TecnologyCard"
 
 export function Tecnologies() {
     return (
-        <div>
+        <section>
             <section>
                 <h2>Lenguajes</h2>
                 <div className="tecnologies-container">
@@ -27,6 +27,6 @@ export function Tecnologies() {
                     <TecnologyCard name="VS Code" icon="/assets/vscode.png" color="#007acc"/>
                 </div>
             </section>
-        </div>
+        </section>
     )
 }

@@ -2,7 +2,7 @@ import { ProjectCard } from "./ProjectCard"
 
 export function Projects() {
     return (
-        <div>
+        <section>
             <h1>Projects</h1>
             <ProjectCard 
                 image="/path/to/image.jpg"
@@ -12,6 +12,6 @@ export function Projects() {
                 projectLink="https://example.com/project"
                 githubLink="https://github.com/example/project"
             />
-        </div>
+        </section>
     )
 }
