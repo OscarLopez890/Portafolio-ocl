@@ -1,6 +1,7 @@
 import { Presentation } from "../components/Presentation"
 import { Experience } from "../components/Experience"
 import { Projects } from "../components/Projects"
+import { Tecnologies } from "../components/Tecnologies"
 
 export default function Home() {
     return (
@@ -8,6 +9,7 @@ export default function Home() {
             <Presentation/>
             <Experience/> 
             <Projects/>
+            <Tecnologies/>
         </>
     )
 }
