@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard"
 export function Projects() {
     return (
         <section>
-            <h1>Projects</h1>
+            <h1>Proyectos</h1>
             <ProjectCard 
                 image="/path/to/image.jpg"
                 title="Project Title"

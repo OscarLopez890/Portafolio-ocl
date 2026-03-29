@@ -1,7 +1,7 @@
 export function ProjectCard({image, title, description, tecnologies, projectLink, githubLink}) {
     return (
         <div>
-            <image src={image} alt={title}/>
+            <img src={image} alt={title}/>
             <h1>{title}</h1>
             <p>{description}</p>
             <div>
