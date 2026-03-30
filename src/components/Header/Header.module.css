@@ -1,0 +1,15 @@
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 1rem;
+    background-color: var(--primary);
+    
+    img {
+        position: absolute;
+        left: 1rem;
+        width: 60px;
+        height: auto;
+    }
+}

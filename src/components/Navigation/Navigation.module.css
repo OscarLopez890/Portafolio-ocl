@@ -1,0 +1,13 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem;
+
+    a{
+        margin-left: 3%;
+        margin-right: 3%;
+        text-decoration: none;
+        color: var(--textPrimary);
+    }
+}
