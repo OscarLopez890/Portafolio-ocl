@@ -1,0 +1,53 @@
+.presentationContainer {
+    padding: 1rem;
+    background: var(--primary);
+
+    h1 {
+        color: var(--textPrimary);
+    }
+    
+    p {
+        color: var(--textPrimary);
+        margin-top: 1rem;
+    }
+
+    img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        margin-left: 2rem;
+    }
+}
+
+.presentationContent {
+    display: flex;
+}
+
+.presentationText {
+    padding: 2rem;
+}
+
+.buttonCV {
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    background: var(--details);
+    color: var(--textPrimary);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.buttonsLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        padding: 0.8rem 0.8rem;
+        margin: 1rem;
+        border-radius: 99px;
+        border: none;
+        background: var(--secondary);
+        color: var(--textPrimary);
+    }
+}
