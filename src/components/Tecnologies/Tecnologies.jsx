@@ -1,30 +1,30 @@
 import { TecnologyCard } from "./TecnologyCard"
+import styles from "./Tecnologies.module.css"
 
 export function Tecnologies() {
     return (
-        <section>
+        <section className={styles.tecnologiesSection}>
+            <h1>Tecnologías</h1>
             <section>
                 <h2>Lenguajes</h2>
-                <div className="tecnologies-container">
-                    <TecnologyCard name="JavaScript" icon="/assets/javascript.png" color="#f0db4f"/>
-                    <TecnologyCard name="Python" icon="/assets/python.png" color="#306998"/>
-                    <TecnologyCard name="Java" icon="/assets/java.png" color="#b07219"/>
+                <div className={styles.tecnologiesContainer}>
+                    <TecnologyCard name="JavaScript" icon="/src/images/javascript.png" color="#eee5a8"/>
+                    <TecnologyCard name="Java" icon="/src/images/java.png" color="#bd9e73"/>
+                    <TecnologyCard name="Python" icon="/src/images/python.png" color="#577a97"/>
                 </div>
             </section>
             <section>
                 <h2>Frameworks</h2>
-                <div className="tecnologies-container">
-                    <TecnologyCard name="React" icon="/assets/react.png" color="#61dafb"/>
-                    <TecnologyCard name="Django" icon="/assets/django.png" color="#092e20"/>
-                    <TecnologyCard name="Spring" icon="/assets/spring.png" color="#6db33f"/>
+                <div className={styles.tecnologiesContainer}>
+                    <TecnologyCard name="React" icon="/src/images/react.png" color="#c0e6f0"/>
+                    <TecnologyCard name="Spring Boot" icon="/src/images/springboot.png" color="#adc49f"/>
                 </div>
             </section>
             <section>
                 <h2>Herramientas</h2>
-                <div className="tecnologies-container">
-                    <TecnologyCard name="Git" icon="/assets/git.png" color="#f34f29"/>
-                    <TecnologyCard name="Docker" icon="/assets/docker.png" color="#0db7ed"/>
-                    <TecnologyCard name="VS Code" icon="/assets/vscode.png" color="#007acc"/>
+                <div className={styles.tecnologiesContainer}>
+                    <TecnologyCard name="Git" icon="/src/images/git.png" color="#f7a390"/>
+                    <TecnologyCard name="VS Code" icon="/src/images/vscode.png" color="#619ec7"/>
                 </div>
             </section>
         </section>
