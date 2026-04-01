@@ -2,7 +2,7 @@ import styles from './Presentation.module.css';
 
 export function Presentation() {
     return (
-        <div className={styles.presentationContainer}>
+        <section className={styles.presentationContainer}>
             <div className={styles.presentationContent}>
                 <div className={styles.presentationText}>
                     <h1>Hola, soy Oscar, FullStack Developer</h1>
@@ -34,6 +34,6 @@ export function Presentation() {
                     </svg>
                 </button>
             </div>   
-        </div>    
+        </section>    
     )
 }

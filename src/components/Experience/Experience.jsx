@@ -1,8 +1,9 @@
 import { ExperienceCard } from "./ExperienceCard"
+import styles from "./Experience.module.css"
 
 export function Experience() {
     return (
-        <section>
+        <section className={styles.experienceContainer}>
             <h1>Experiencia</h1>
             <ExperienceCard
                 title="Desarrollador Web FullStack | Freelance"

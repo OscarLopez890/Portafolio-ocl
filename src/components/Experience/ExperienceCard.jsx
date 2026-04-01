@@ -1,8 +1,10 @@
+import styles from "./Experience.module.css"
+
 export function ExperienceCard({title, description, tecnologies, image}) {
     return (
-        <div>
+        <div className={styles.experienceCard}>
             <img src={image} alt={title}/>
-            <div>
+            <div className={styles.experienceContent}>
                 <h2>{title}</h2>
                 <p>{description}</p>
             </div>
