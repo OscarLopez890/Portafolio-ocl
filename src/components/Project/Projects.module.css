@@ -1,0 +1,16 @@
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--primary);
+
+    h1 {
+        color: var(--textPrimary)
+    }
+}
+
+.projectCardContainer{
+    background-color: var(--details);
+    border-radius: 8px;
+    padding: 1rem;
+}

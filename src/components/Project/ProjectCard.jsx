@@ -1,8 +1,10 @@
+import styles from "./Projects.module.css"
+
 export function ProjectCard({image, title, description, tecnologies, projectLink, githubLink}) {
     return (
-        <div>
+        <div className={styles.projectCardContainer}>
             <img src={image} alt={title}/>
-            <h1>{title}</h1>
+            <h2>{title}</h2>
             <p>{description}</p>
             <div>
                 {tecnologies.map(tecnology => (

@@ -1,8 +1,9 @@
 import { ProjectCard } from "./ProjectCard"
+import styles from "./Projects.module.css"
 
 export function Projects() {
     return (
-        <section>
+        <section className={styles.projectsContainer}>
             <h1>Proyectos</h1>
             <ProjectCard 
                 image="/path/to/image.jpg"
