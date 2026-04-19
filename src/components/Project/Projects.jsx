@@ -3,7 +3,7 @@ import styles from "./Projects.module.css"
 
 export function Projects() {
     return (
-        <section className={styles.projectsContainer}>
+        <section className={styles.projectsContainer} id="projectsSection">
             <h1>Proyectos</h1>
             <ProjectCard 
                 image="/path/to/image.jpg"

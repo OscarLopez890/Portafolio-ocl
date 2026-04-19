@@ -3,11 +3,11 @@ import styles from "./Navigation.module.css"
 export function Navigation(){
     return (
         <nav className={styles.navigation}>
-            <a href="#home">Inicio</a>
-            <a href="#experience">Experiencia</a>
-            <a href="#projects">Proyectos</a>
-            <a href="#tecnologies">Tecnologias</a>
-            <a href="#contact">Contacto</a>
+            <a href="#presentationSection">Inicio</a>
+            <a href="#experienceSection">Experiencia</a>
+            <a href="#projectsSection">Proyectos</a>
+            <a href="#tecnologiesSection">Tecnologias</a>
+            <a href="#contactSection">Contacto</a>
         </nav>
     )
 }

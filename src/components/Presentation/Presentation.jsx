@@ -2,7 +2,7 @@ import styles from './Presentation.module.css';
 
 export function Presentation() {
     return (
-        <section className={styles.presentationContainer}>
+        <section className={styles.presentationContainer} id="presentationSection">
             <div className={styles.presentationContent}>
                 <div className={styles.presentationText}>
                     <h1>Hola, soy Oscar, FullStack Developer</h1>

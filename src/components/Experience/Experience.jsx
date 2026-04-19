@@ -3,7 +3,7 @@ import styles from "./Experience.module.css"
 
 export function Experience() {
     return (
-        <section className={styles.experienceContainer}>
+        <section className={styles.experienceContainer} id="experienceSection">
             <h1>Experiencia</h1>
             <ExperienceCard
                 title="Desarrollador Web FullStack | Freelance"

@@ -3,7 +3,7 @@ import styles from "./Tecnologies.module.css"
 
 export function Tecnologies() {
     return (
-        <section className={styles.tecnologiesSection}>
+        <section className={styles.tecnologiesSection} id="tecnologiesSection">
             <h1>Tecnologías</h1>
             <section>
                 <h2>Lenguajes</h2>
