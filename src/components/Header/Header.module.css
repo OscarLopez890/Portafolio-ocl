@@ -2,11 +2,13 @@
     display: flex;
     width: 100%;
     padding: 1rem;
-    background-color: var(--primary);
+    background: var(--primaryGradient);
+    opacity: 0.98;
     position: fixed;
     height: 80px;
     align-items: center;
     justify-content: center;
+
     
     img {
         position: absolute;

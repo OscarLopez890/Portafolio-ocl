@@ -7,6 +7,7 @@
 
 :root {
   --primary: #353535;
+  --primaryGradient: linear-gradient(to top, #353535, #282828);
   --secondary: #3c6e71;
   --textPrimary: #ffffff;
   --textSecondary: #d9d9d9;
@@ -27,4 +28,5 @@
 .App {
   display: flex;
   flex-direction: column;
+  background: var(--primary);
 }
