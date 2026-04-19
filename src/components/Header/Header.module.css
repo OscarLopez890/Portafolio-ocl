@@ -1,10 +1,12 @@
 .headerContainer{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    width: 100%;
     padding: 1rem;
     background-color: var(--primary);
+    position: fixed;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
     
     img {
         position: absolute;
