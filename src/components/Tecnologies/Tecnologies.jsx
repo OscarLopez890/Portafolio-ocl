@@ -11,7 +11,7 @@ export function Tecnologies() {
                     <TecnologyCard name="JavaScript" icon="/src/images/javascript.png" color="#eee5a8"/>
                     <TecnologyCard name="Java" icon="/src/images/java.png" color="#bd9e73"/>
                     <TecnologyCard name="Python" icon="/src/images/python.png" color="#577a97"/>
-                    <TecnologyCard name="PHP" icon="/src/images/php.png" color="#836192"/>
+                    <TecnologyCard name="PHP" icon="/src/images/php.svg" color="#836192"/>
                 </div>
             </section>
             <section>
@@ -36,7 +36,7 @@ export function Tecnologies() {
                 <div className={styles.tecnologiesContainer}>
                     <TecnologyCard name="Git" icon="/src/images/git.png" color="#f7a390"/>
                     <TecnologyCard name="VS Code" icon="/src/images/vscode.png" color="#619ec7"/>
-                    <TecnologyCard name="PostMan" icon="/src/images/postman.png" color="#fe9c7c"/>
+                    <TecnologyCard name="PostMan" icon="/src/images/postman.svg" color="#fe9c7c"/>
                 </div>
             </section>
         </section>

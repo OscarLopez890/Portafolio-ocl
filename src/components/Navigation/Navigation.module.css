@@ -9,5 +9,15 @@
         margin-right: 3%;
         text-decoration: none;
         color: var(--textPrimary);
+        padding: 0.7rem;
+        border-radius: 0.5rem;
+        transition: background-color 0.3s ease;
     }
+
+    a:hover{
+        color: var(--textPrimary);
+        text-underline-offset: 0.2rem;
+        background: var(--detailsHover);
+    }
+
 }
