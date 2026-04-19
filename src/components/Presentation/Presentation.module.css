@@ -35,6 +35,12 @@
     border: none;
     border-radius: 20px;
     font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.buttonCV:hover {
+    background: var(--detailsHover);
+    transform: scale(1.1);
 }
 
 .buttonsLink {
@@ -49,5 +55,10 @@
         border: none;
         background: var(--secondary);
         color: var(--textPrimary);
+    }
+
+    button:hover {
+        background: var(--secondaryHover);
+        transform: scale(1.1);
     }
 }
