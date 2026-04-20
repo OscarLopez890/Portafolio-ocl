@@ -22,4 +22,27 @@
         padding: 2rem;
         transition: transform 0.3s ease;
     }
+
+    img:hover{
+        background-color: var(--detailsHover);
+        transform: scale(1.05);
+    }
+}
+
+.contactImg {
+    max-height: 100px;
+    max-width: 400px;
+}
+
+.contact{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+        width: 80px;
+        height: 80px;
+        transition: transform 0.3s ease;
+    }
 }

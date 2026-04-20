@@ -48,7 +48,7 @@
     justify-content: center;
     align-items: center;
 
-    button {
+    a {
         padding: 0.8rem 0.8rem;
         margin: 1rem;
         border-radius: 99px;
@@ -57,7 +57,7 @@
         color: var(--textPrimary);
     }
 
-    button:hover {
+    a:hover {
         background: var(--secondaryHover);
         transform: scale(1.1);
     }
